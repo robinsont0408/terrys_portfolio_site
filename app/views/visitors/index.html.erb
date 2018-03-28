@@ -1,7 +1,7 @@
 <div class="container" id="page-content">
     <div class="row">
         <div class="col-sm-4" id="headshot-container">
-            <img id="headshot" img src="data:image/png;base64, ./images/headshot.jpeg" alt="Headshot for Terry">
+            <%= image_tag("headshot.jpeg", :alt => "Profile Image", class: "img-fluid shadow") %>
 <!--             <img class="responsive" img id="headshot" src="./images/headshot.jpeg" alt="Headshot for Terry"> -->
         </div>
         <!--       about section -->
@@ -12,9 +12,9 @@
         <p>Lorem ipsum dolor amet humblebrag viral everyday carry try-hard. Retro tilde sustainable succulents pabst normcore aesthetic waistcoat fam humblebrag irony bicycle rights truffaut tbh. Food truck flexitarian humblebrag whatever roof party, keffiyeh la croix chambray kitsch meditation. Slow-carb yr lomo flannel echo park. Flannel plaid meditation shaman tote bag aesthetic squid church-key leggings gochujang. XOXO af artisan unicorn irony, pabst truffaut prism la croix.</p>
         <p>Glossier cloud bread synth quinoa dreamcatcher tofu venmo man braid 8-bit fanny pack pork belly vegan jianbing roof party blog. Migas cloud bread lyft, jean shorts sartorial af gluten-free. Flannel brunch try-hard austin swag. Actually ugh four dollar toast fam readymade austin, bicycle rights next level edison bulb air plant fanny pack tattooed. Street art beard meditation synth, post-ironic pitchfork raclette truffaut poke chicharrones everyday carry williamsburg roof party lumbersexual twee. Blog meggings wolf post-ironic beard. Hoodie drinking vinegar semiotics tacos, williamsburg PBR&B lomo intelligentsia photo booth</p>
         <!--    social links    -->
-        <a class="btn btn-dark" a href="https://linkedin.com/in/terry-n-robinson"><img id="linkedin" src ="./images/linkedin.png" alt="linkedin"></a>
-        <a class="btn btn-dark" a href="https://github.com/robinsont0408"><img id="github" src ="./images/github.png" alt="ghub"></a>
-        <a class="btn btn-dark" a href="mailto: terryrobinson@trobinson.co"><img id="gmail" src ="./images/gmail.png" alt="mail"></a>
+        <a class="btn btn-dark shadow" a href="https://linkedin.com/in/terry-n-robinson"><%= image_tag("linkedin.png", :alt => "Linked-In", class: "css-style") %></a>
+        <a class="btn btn-dark shadow" a href="https://github.com/robinsont0408"><%= image_tag("github.png", :alt => "Github", class: "css-style") %></a>
+        <a class="btn btn-dark shadow" a href="mailto: terryrobinson@trobinson.co"><%= image_tag("gmail.png", :alt => "E-Mail", class: "css-style") %></a>
 
         <!-- At the end of all your content, add Bootstrap JS here -->
 
